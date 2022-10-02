@@ -1,11 +1,12 @@
 import React from 'react';
+import logo from "../../media/LOGO.png"
 
 const Header = () => {
     return (
       <div className="flex justify-between mt-10 mb-10">
         <div className="flex items-center">
-          {/* <img className="w-12 mr-2" src={logo} alt="" /> */}
-          <h1 className="text-3xl font-semibold">MinnsPort Academy</h1>
+          <img className="w-44 mr-2 ml-1" src={logo} alt="" />
+          <h1 className="text-3xl font-semibold">Academy</h1>
         </div>
         <label
           htmlFor="my-drawer-4"

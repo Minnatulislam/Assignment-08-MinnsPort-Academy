@@ -50,7 +50,6 @@ function App() {const [trainings, setTrainings] = useState([]);
           <Header></Header>
 
           <div className="drawer drawer-end">
-            <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
             <div className="drawer-content lg:ml-2">
               <AllCart
                 trainings={trainings}
@@ -69,12 +68,12 @@ function App() {const [trainings, setTrainings] = useState([]);
                   <div className="flex justify-center gap-3 bg-slate-200">
                     <img
                       className="w-12 h-12 rounded-xl"
-                      src="https://yt3.ggpht.com/ytc/AMLnZu_xdP6VGIIwJeEDdry1mtZkURbwdR5MtPtSp0NOQw=s900-c-k-c0x00ffffff-no-rj"
+                      src="https://scontent-ccu1-1.xx.fbcdn.net/v/t39.30808-6/290341996_2334174193417521_8139725824092930502_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=174925&_nc_eui2=AeHlYWcBVZnGXYr0ghqKGxc-nCTTqyed6n6cJNOrJ53qfpeFrIUPf8b4gZw29kvDOApc-q_Ni3xRaa9Ea5Je3Zvh&_nc_ohc=aZ0yMCqkOwgAX-QZ8LA&_nc_zt=23&_nc_ht=scontent-ccu1-1.xx&oh=00_AT-kw8UU3czb0O3VEvWp9D8k_mTK8jus4pnqMnbCYjIFWA&oe=633B6C65"
                       alt=""
                     />
                     <div>
                       <h3 className="md:text-base lg:text-xl text-slate-700 font-semibold">
-                        Indrajith Goswami
+                      S.M Minnatul Islam
                       </h3>
                       <div className="flex items-center text-slate-400">
                         <svg
@@ -96,7 +95,7 @@ function App() {const [trainings, setTrainings] = useState([]);
                             d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
                           />
                         </svg>
-                        <p>Chittagong, Bangladesh.</p>
+                        <p>Dhaka, Bangladesh.</p>
                       </div>
                     </div>
                   </div>
