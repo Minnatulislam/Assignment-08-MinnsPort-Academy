@@ -18,7 +18,7 @@ const Cart = ({ trainingCartData, handleCartTime }) => {
           Time required : <strong>{time}s</strong>
         </p>
         <div className="card-actions">
-          <button onClick={()=>handleCartTime(time)} className="btn btn-active bg-green-400 w-full mt-4 py-2">Add to list</button>
+          <button onClick={()=>handleCartTime(time)} className="btn btn-active bg-blue-400 w-full mt-4 py-2">Add to list</button>
         </div>
       </div>
     </div>
