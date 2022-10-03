@@ -29,7 +29,7 @@ const Questions = () => {
         </div>
         <div
           tabIndex={2}
-          className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box mb-1"
+          className="collapse  collapse-arrow border border-base-300 bg-base-100 rounded-box mb-1"
         >
           <div className="collapse-title text-xl font-medium">
           What is the use of useEffect in react without fatching data?
@@ -49,3 +49,6 @@ const Questions = () => {
   };
   
 export default Questions;
+
+
+

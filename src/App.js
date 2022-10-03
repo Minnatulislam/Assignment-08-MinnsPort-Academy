@@ -13,7 +13,7 @@ function App() {const [trainings, setTrainings] = useState([]);
 
   const [cartTime, setCartTime] = useState(0);
 
-  const [setBreakTime] = useState(0);
+  const [breaktime, setBreakTime] = useState(0);
 
   const savedCartTime = localStorage.getItem("cart-time");
   let totalCartTime = 0;
