@@ -110,11 +110,11 @@ const Sidebar = ({ cartTime, handleBreakTime, breakTime,notifySuccess }) => {
           <p className="font-semibold text-slate-500">{cartTime || 0} seconds</p>
         </div>
         <div className="bg-slate-200 py-3 px-3 rounded-lg flex justify-between">
-          <h4 className="text-lg font-semibold text-slate-600">Break time</h4>
+          <h4 className="text-lg font-semibold text-slate-600">Break Time</h4>
           <p className="font-semibold text-slate-500">{breakTime || 0} seconds</p>
         </div>
   
-        <button onClick={notifySuccess} className="btn mt-10 bg-blue-400 px-8  py-2">Activity Completed</button>
+        <button onClick={notifySuccess} className="btn mt-10 bg-blue-500 px-8 text-white py-2">Activity Completed</button>
       </div>
     );
   };

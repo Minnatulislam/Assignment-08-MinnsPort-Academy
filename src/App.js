@@ -189,7 +189,7 @@ function App() {const [trainings, setTrainings] = useState([]);
                   </div>
                   <div className="bg-slate-200 py-3 px-3 rounded-lg flex justify-between">
                     <h4 className="text-lg font-semibold text-slate-600">
-                      Break time
+                      Break Time
                     </h4>
                     <p className="font-semibold text-slate-500">
                       {savedBreakTime} seconds

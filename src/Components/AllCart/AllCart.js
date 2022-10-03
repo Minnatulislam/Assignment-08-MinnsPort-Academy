@@ -4,8 +4,8 @@ import Cart from "../Cart/Cart";
 const AllCart = ({ trainings,handleCartTime }) => {
 
   return (
-    <div>
-      <h3 className="text-2xl font-semibold mb-8">
+    <div className='mx-10'>
+      <h3 className="text-2xl font-semibold mb-8 ">
         Select today’s exercise
       </h3>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 ">

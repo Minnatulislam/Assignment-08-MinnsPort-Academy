@@ -3,9 +3,9 @@ import logo from "../../media/LOGO.png"
 
 const Header = () => {
     return (
-      <div className="flex justify-between mt-10 mb-10">
+      <div className="flex justify-between mt-10 mb-10 mx-10">
         <div className="flex items-center">
-          <img className="w-44 mr-2 ml-1" src={logo} alt="" />
+          <img className="w-52 mr-2 ml-1" src={logo} alt="" />
           <h1 className="text-3xl font-semibold">Academy</h1>
         </div>
         <label

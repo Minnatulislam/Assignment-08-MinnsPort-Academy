@@ -2,7 +2,7 @@ import React from 'react';
 
 const Questions = () => {
     return (
-      <div className="my-20">
+      <div className="my-20 mx-20">
           <h1 className="text-4xl text-center mb-5">Questions and Answers</h1>
         <div
           tabIndex={0}
