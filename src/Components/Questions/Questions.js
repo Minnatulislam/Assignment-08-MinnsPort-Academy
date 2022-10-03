@@ -36,11 +36,11 @@ const Questions = () => {
           </div>
           <div className="collapse-content">
             <ul>
-              <li>1. Running on state change: validating input field</li>
-              <li>2. Running on state change: live filtering.</li>
-              <li>3. Running on state change: trigger animation on new array value</li>
-              <li>4. Running on props change: update paragraph list on fetched API data update.</li>
-              <li>5. Running on props change: updating fetched API data to get BTC updated price.</li>
+              <li>1. Running on state change: Validating input field</li>
+              <li>2. Running on state change: Live filtering.</li>
+              <li>3. Running on state change: Trigger animation on new array value</li>
+              <li>4. Running on props change: Update paragraph list on fetched API data update.</li>
+              <li>5. Running on props change: Updating fetched API data to get BTC updated price.</li>
             </ul>
           </div>
         </div>
